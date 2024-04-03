@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: rgb(79, 75, 148);
+    font-family:'Times New Roman', Times, serif;
+                                                
+}
+.home{
+    background-color: rgb(11, 29, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+.Lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 19px; 
+    margin: 10px;
+    color: rgb(79, 75, 148);
+}
+.Tudo{
+    display: flex;
+}
+.Lista1{
+    background-color: rgb(163, 83, 83);
+    width: 100px;
+}
+.Menu{
+    background-color: rgb(11, 29, 61);
+    color: rgb(79, 75, 148);
+    height: 1500px;
+    width: 230px;
+    text-align:center;
+    border: solid 5px rgb(153, 143, 145);
+    margin: 0px;
+    border-left-width: 0px;
+}
+.Principal{
+    background-color:rgb(153, 143, 145);
+    width: 1800px; border: solid 2px rgb(153, 143, 145);
+    height: 1500px;
+    
+}
+h3{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+h5{
+    background-color: white; 
+    border:5px solid black; 
+    padding: 30px;
+}
