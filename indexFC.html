@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFC.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fechamento de Caixa</h1>
+
+        <form>
+            <label for="caixa">Caixa</label>
+            <select id="caixa">
+                <option>Caixa 1</option>
+                <option>Caixa 2</option>
+                <option>Caixa 3</option>
+                <option>Caixa 4</option>                
+            </select>
+
+            <label for="modelo">Recebimento do Dia</label>
+            <input type="text" class="form-control" id="modelo" placeholder="Digite o recebimento">
+
+            <label for="placa">Saque/Troco:</label>
+            <input type="text" class="form-control" id="placa" maxlength="7" placeholder="R$*****">
+
+            <label for="funcionario">Funcionário</label>
+            <select id="funcionario">
+                <option>Paulo</option>
+                <option>Brena</option>
+                <option>Armando</option>
+                <option>Velma</option>
+                
+            </select>
+
+            <label for="dataEntrada">Data e Hora de Entrada</label>
+            <input type="datetime-local" class="form-control" id="dataEntrada">
+
+            <label for="dataSaida">Data e Hora de Saída</label>
+            <input type="datetime-local" class="form-control" id="dataSaida">
+
+            <button type="submit" class="btn">Registrar</button>
+            <button type="button" class="btn">Editar</button>
+            <button type="button" class="btn">Gravar</button>
+            <button type="button" class="btn">Cancelar</button>
+        </form>
+
+
+            <tbody>
+                <!-- Linhas da tabela aqui -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
